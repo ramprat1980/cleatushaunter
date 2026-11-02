@@ -1,0 +1,73 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+
+}
+
+.page-title {
+    height: 150px;
+    background-color: black;
+    color: rgb(0, 255, 0);
+    text-align: center;
+    margin-top: 0px;
+    font-size: 100px;
+    margin-bottom: 1px;
+    -webkit-text-stroke: 1px rgb(96, 0, 122);
+}
+
+.page-left {
+    color: bisque;
+}
+
+.page-center {
+    background-color: gray;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.page-right {
+    color: bisque;
+}
+
+.center-heads {
+    font-size: 45px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    color: rgb(0, 255, 0);
+    -webkit-text-stroke: 0.5px rgb(60, 0, 71);
+
+}
+
+.center-info {
+    color: rgb(60, 0, 71);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+    font-size: 25px;
+}
+
+.gallery-text {
+    font-size: 75px;
+    margin-top: 50px;
+    margin-bottom: 1px;
+    text-align: center;
+    text-decoration: overline;
+    color: rgb(0, 255, 0);
+    -webkit-text-stroke: 0.5px rgb(60, 0, 71);
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.gallery-img-size {
+    display: block;
+    height: 600px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}

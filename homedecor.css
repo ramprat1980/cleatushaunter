@@ -1,0 +1,132 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 1fr 100px;
+
+}
+
+.page-left {
+    background-color: gray;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.left-links {
+    color: rgb(255, 128, 0);
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+
+}
+
+.left-links:hover {
+    color: rgb(60, 0, 71);
+}
+
+
+.page-center {
+    background-color: gray;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.welcome-text {
+    color: rgb(0, 255, 0);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 70px;
+    -webkit-text-stroke: 0.5px rgb(60, 0, 71);
+}
+
+.center-heads {
+    font-size: 45px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    color: rgb(0, 255, 0);
+    -webkit-text-stroke: 0.5px rgb(60, 0, 71);
+
+}
+
+.center-info {
+    color: rgb(60, 0, 71);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+    font-size: 25px;
+}
+
+.center-list {
+    color: rgb(255, 128, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+    font-size: 35px;
+    text-decoration: none;
+    -webkit-text-stroke: 0.8px rgb(0, 0, 0);
+}
+
+.list-links {
+    color: rgb(255, 128, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+    font-size: 35px;
+    text-decoration: none;
+    -webkit-text-stroke: 0.8px rgb(0, 0, 0); 
+}
+
+.list-links:hover {
+    color: rgb(60, 0, 71);
+}
+
+.header-box {
+    height: 200px;
+    background-color: black;
+    color: rgb(0, 255, 0);
+    text-align: center;
+    margin-top: 0px;
+}
+
+.cc-text {
+    font-size: 100px;
+    margin-bottom: 1px;
+    -webkit-text-stroke: 1px rgb(96, 0, 122);
+}
+
+.cleabus-pic {
+    height: 600px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+
+}
+
+.description-text {
+    margin-top: 1px;
+    font-size: 35px;
+    text-decoration: overline;
+    -webkit-text-stroke: 0.25px rgb(96, 0, 122);
+
+}
+
+.footer {
+    color: rgb(0, 255, 0);
+}
+
+.skull-gif-1 {
+    float: left;
+    margin-left: 5px;
+    height: 200px;
+    width: auto;
+
+}
+
+.skull-gif-2 {
+    float: right;
+    margin-right: 5px;
+    height: 200px;
+    width: auto;
+}
